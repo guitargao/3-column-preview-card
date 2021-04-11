@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+ 
+  .container {
+  margin: 50px;
+  display: flex;
+  width: 800px;
+  height: 500px;
+  justify-content: center;
+  }
+  .cards{
+    border-radius: 10px;
+  }
+  #sedan{
+    background-color: hsl(31, 77%, 52%);
+  }
+  
+  #suv{
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  #luxury{
+    background-color: hsl(179, 100%, 13%);
+  }
+  
+  .btn{
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    width: 8rem;
+    height: 2.5rem;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    color: hsl(31, 77%, 52%);
+  }
+  .btn1{
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  width: 8rem;
+  height: 2.5rem;
+  position: relative;
+  top: 120px;
+  left: 30px;
+  color: hsl(184, 100%, 22%);
+}
+  .btn2{
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  width: 8rem;
+  height: 2.5rem;
+  position: relative;
+  top: 135px;
+  left: 30px;
+  color:  hsl(179, 100%, 13%);
+}
+  .text{
+    position: relative;
+    top: 80px;
+    left: 45px;
+    color: aliceblue;
+  }
+  .text2{
+    position: relative;
+    top: 90px;
+    color: aliceblue;
+    font-size: x-small;
+    padding: 10px 40px 30px 40px;
+  }
+  .icon{
+    position: relative;
+    top: 80px;
+    left: 40px;
+
+  }
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cards" id="sedan">
+    <img class="icon" src="images/icon-sedans.svg" alt="a photo icon-sedans">
+    <h2 class="text">SEDANS</h2>
+    <p class="text2">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+      or on your next road trip.</p>
+    <button class="btn">Learn More</button> 
+    </div>
+
+    <div class="cards" id="suv">
+      <img class="icon" src="images/icon-suvs.svg" alt="a photo icon-sedans">
+      <h2 class="text">SUVS</h2>
+      <p class="text2">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+        and off-road adventures.</p>
+        <button class="btn1">Learn More</button>
+    </div>
+
+    <div class="cards" id="luxury">
+      <img class="icon" src="images/icon-luxury.svg" alt="a photo icon-luxury">
+      <h2 class="text">luxury</h2>
+      <p class="text2">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+        rental and arrive in style.</p>
+        <button class="btn2">Learn More</button>
+        </div>
+</body>
+</html>
+<!--
+Sedans
+Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+or on your next road trip.
+
+SUVs
+Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+and off-road adventures.
+
+Luxury
+Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+rental and arrive in style.
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div>
+-->
